@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Search</title>
+</head>
+<body>
+    <p>getted logs:</p>
+    <ul>
+        {% for key, value in getted_data.items %}
+            <li>{{ key }}: {{ value }}</li>
+        {% endfor %}
+    </ul>
+    <p>domain: {{ domain }}</p>
+	
+    <p>response_bd: {{ status }}</p>
+</body>
+</html>
